@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AF44C41E5ACFA600BDCB95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF44C31E5ACFA600BDCB95 /* AppDelegate.swift */; };
+		84AF44C61E5ACFA700BDCB95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF44C51E5ACFA700BDCB95 /* ViewController.swift */; };
+		84AF44C91E5ACFA700BDCB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF44C71E5ACFA700BDCB95 /* Main.storyboard */; };
+		84AF44CB1E5ACFA700BDCB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF44CA1E5ACFA700BDCB95 /* Assets.xcassets */; };
+		84AF44CE1E5ACFA700BDCB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF44CC1E5ACFA700BDCB95 /* LaunchScreen.storyboard */; };
+		84AF44D61E5AD0AF00BDCB95 /* ShazamLikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF44D51E5AD0AF00BDCB95 /* ShazamLikeButton.swift */; };
+		84AF44D81E5AD0B600BDCB95 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF44D71E5AD0B600BDCB95 /* Element.swift */; };
+		84AF44DA1E5AD13500BDCB95 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF44D91E5AD13500BDCB95 /* Pulsing.swift */; };
+		84AF44DC1E5AD32500BDCB95 /* SLBConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF44DB1E5AD32500BDCB95 /* SLBConstraints.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84AF44C01E5ACFA600BDCB95 /* ShazamLikeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShazamLikeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AF44C31E5ACFA600BDCB95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AF44C51E5ACFA700BDCB95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84AF44C81E5ACFA700BDCB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AF44CA1E5ACFA700BDCB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AF44CD1E5ACFA700BDCB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AF44CF1E5ACFA700BDCB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AF44D51E5AD0AF00BDCB95 /* ShazamLikeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShazamLikeButton.swift; path = ../ShazamLikeButton.swift; sourceTree = "<group>"; };
+		84AF44D71E5AD0B600BDCB95 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Element.swift; path = ../Element.swift; sourceTree = "<group>"; };
+		84AF44D91E5AD13500BDCB95 /* Pulsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pulsing.swift; path = ../Pulsing.swift; sourceTree = "<group>"; };
+		84AF44DB1E5AD32500BDCB95 /* SLBConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLBConstraints.swift; path = ../SLBConstraints.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AF44BD1E5ACFA600BDCB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AF44B71E5ACFA600BDCB95 = {
+			isa = PBXGroup;
+			children = (
+				84AF44C21E5ACFA600BDCB95 /* ShazamLikeButton */,
+				84AF44C11E5ACFA600BDCB95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AF44C11E5ACFA600BDCB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AF44C01E5ACFA600BDCB95 /* ShazamLikeButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AF44C21E5ACFA600BDCB95 /* ShazamLikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				84AF44C51E5ACFA700BDCB95 /* ViewController.swift */,
+				84AF44D51E5AD0AF00BDCB95 /* ShazamLikeButton.swift */,
+				84AF44D71E5AD0B600BDCB95 /* Element.swift */,
+				84AF44D91E5AD13500BDCB95 /* Pulsing.swift */,
+				84AF44DB1E5AD32500BDCB95 /* SLBConstraints.swift */,
+				84AF44C71E5ACFA700BDCB95 /* Main.storyboard */,
+				84AF44CA1E5ACFA700BDCB95 /* Assets.xcassets */,
+				84AF44CC1E5ACFA700BDCB95 /* LaunchScreen.storyboard */,
+				84AF44CF1E5ACFA700BDCB95 /* Info.plist */,
+				84AF44C31E5ACFA600BDCB95 /* AppDelegate.swift */,
+			);
+			path = ShazamLikeButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AF44BF1E5ACFA600BDCB95 /* ShazamLikeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AF44D21E5ACFA700BDCB95 /* Build configuration list for PBXNativeTarget "ShazamLikeButton" */;
+			buildPhases = (
+				84AF44BC1E5ACFA600BDCB95 /* Sources */,
+				84AF44BD1E5ACFA600BDCB95 /* Frameworks */,
+				84AF44BE1E5ACFA600BDCB95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShazamLikeButton;
+			productName = ShazamLikeButton;
+			productReference = 84AF44C01E5ACFA600BDCB95 /* ShazamLikeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AF44B81E5ACFA600BDCB95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "da-manifest";
+				TargetAttributes = {
+					84AF44BF1E5ACFA600BDCB95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X3YXN8MS3X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84AF44BB1E5ACFA600BDCB95 /* Build configuration list for PBXProject "ShazamLikeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AF44B71E5ACFA600BDCB95;
+			productRefGroup = 84AF44C11E5ACFA600BDCB95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AF44BF1E5ACFA600BDCB95 /* ShazamLikeButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AF44BE1E5ACFA600BDCB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF44CE1E5ACFA700BDCB95 /* LaunchScreen.storyboard in Resources */,
+				84AF44CB1E5ACFA700BDCB95 /* Assets.xcassets in Resources */,
+				84AF44C91E5ACFA700BDCB95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AF44BC1E5ACFA600BDCB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF44C61E5ACFA700BDCB95 /* ViewController.swift in Sources */,
+				84AF44C41E5ACFA600BDCB95 /* AppDelegate.swift in Sources */,
+				84AF44DA1E5AD13500BDCB95 /* Pulsing.swift in Sources */,
+				84AF44DC1E5AD32500BDCB95 /* SLBConstraints.swift in Sources */,
+				84AF44D81E5AD0B600BDCB95 /* Element.swift in Sources */,
+				84AF44D61E5AD0AF00BDCB95 /* ShazamLikeButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84AF44C71E5ACFA700BDCB95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF44C81E5ACFA700BDCB95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AF44CC1E5ACFA700BDCB95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF44CD1E5ACFA700BDCB95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AF44D01E5ACFA700BDCB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AF44D11E5ACFA700BDCB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AF44D31E5ACFA700BDCB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3YXN8MS3X;
+				INFOPLIST_FILE = ShazamLikeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "da-manifest.ShazamLikeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84AF44D41E5ACFA700BDCB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3YXN8MS3X;
+				INFOPLIST_FILE = ShazamLikeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "da-manifest.ShazamLikeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AF44BB1E5ACFA600BDCB95 /* Build configuration list for PBXProject "ShazamLikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF44D01E5ACFA700BDCB95 /* Debug */,
+				84AF44D11E5ACFA700BDCB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AF44D21E5ACFA700BDCB95 /* Build configuration list for PBXNativeTarget "ShazamLikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF44D31E5ACFA700BDCB95 /* Debug */,
+				84AF44D41E5ACFA700BDCB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AF44B81E5ACFA600BDCB95 /* Project object */;
+}
